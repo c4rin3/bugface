@@ -1,0 +1,71 @@
+/* CSS Document */
+
+body {
+	font-family: Courier New, Courier, monospace;
+	width: auto;
+	height: auto;
+	font-size: small;
+	/*background : url(bg.png) repeat;*/ /*utilisation d'une img cree avec bg.php*/
+	background: url(bg.php); 
+	margin: 5%;
+	color: #660099;
+}
+#container{
+	position: relative;
+	width: 283px;
+	height: 500px;
+	margin: auto;
+	background: white;
+	padding: 50px;
+	padding-top: 20px;
+	border: 1px dotted #660099;
+}
+
+/*------------------- Header / nom du site / bannière --------------------*/
+#header{
+	position: relative;
+	font-family: Verdana, Geneva, sans-serif;
+	top: 0px;
+	width: 283px;
+	height: 72 px;
+	border-bottom: 1px dotted #660099;
+}
+h1{
+	text-transform: uppercase;
+}
+
+
+/*------------------- Formulaire - Input utilisateur --------------------*/
+#form{
+	position: relative;
+	width: 283px;
+	height: 72px;
+	color: black;
+	top: 5px;
+	border-bottom: 1px dotted #660099;
+}
+#form input{
+	width: auto;
+    margin-top: 3px; margin-bottom : 3px;
+	font-family: Courier New, Courier, monospace;
+	font-size: small;
+    color: white;
+	background: #660099;
+	border: 1px solid #660099;
+}
+
+
+/*------------------- Retour - Output - Feedback --------------------*/
+#feedbackTxt{
+	position: relative;
+	top: 10px;
+	width: 283px;
+	height: 72px;
+	color: black;
+}
+#feedbackImg{
+	position: relative;
+	top: 0px;
+	width: 283px;
+	height: 283px;
+}
